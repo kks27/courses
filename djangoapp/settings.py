@@ -103,20 +103,22 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'djangoapp.urls'
 
 TEMPLATE_DIRS = (
+	'/home/ubuntu/courses/djangoapp/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
 
 INSTALLED_APPS = (
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.sites',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+     'django.contrib.auth',
+     'django.contrib.contenttypes',
+     'django.contrib.sessions',
+     'django.contrib.sites',
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
+     'djangoapp.books',  
+   # Uncomment the next line to enable the admin:
+     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
